@@ -1,0 +1,7 @@
+{
+  "name": "TeleStat",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

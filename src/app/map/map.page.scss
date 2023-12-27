@@ -1,0 +1,38 @@
+#mapid {
+    height: 100%;
+    width: 100%;
+}
+
+ion-button {
+    --background: #ffb638; /* Встановіть колір фону кнопки */
+    --background-activated: #3dc2ff; /* Колір фону при активації */
+    --background-hover: #4c8dff; /* Колір фону при наведенні */
+    --color: #fff; /* Колір тексту */
+    --border-radius: 4px; /* Радіус країв */
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+    --padding-start: 20px;
+    --padding-end: 20px;
+    font-weight: bold;
+  }
+  
+  ion-button:hover {
+    --opacity: 0.9; /* Прозорість при наведенні */
+  }
+
+  .alert-box {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: rgb(18, 68, 247);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: none; /* Спочатку приховано */
+  }
+  
+  .alert-box.show {
+    display: block; /* Показувати, коли активно */
+  }
